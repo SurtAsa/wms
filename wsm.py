@@ -5,8 +5,7 @@ import time
 import pandas as pd
 
 # importando csv
-contatos = pd.read_csv("Lista_Contato_Whatapp.csv"
-)
+contatos = pd.read_csv("Lista_Contato_Whatapp.csv")
 
 # fazendo o envio
 data_dict = contatos.to_dict('list')
