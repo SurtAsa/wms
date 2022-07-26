@@ -19,13 +19,13 @@ for lead,messages in combo:
     time.sleep(4)
     web.open("https://web.whatsapp.com/send?phone="+lead+"&text="+messages)
     if first:
-        time.sleep(6)
+        time.sleep(4)
         first=False
     width,height = pg.size()
     pg.click(width/2,height/2)
-    time.sleep(8)
-    pg.press('esc')
     time.sleep(5)
+    pg.press('esc')
+    time.sleep(3)
     pg.press('enter')
-    time.sleep(18)
+    time.sleep(4)
     pg.hotkey('ctrl','w')
