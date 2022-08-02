@@ -1,4 +1,4 @@
-<h1 align="center">WSM - Menssge sender</h1>
+<h1 align="center">WSM - Menssage sender</h1>
 
 To start to use the WSN, first you need to make your virtual enviroment (venv) with this comand:
 
