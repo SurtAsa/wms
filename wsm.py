@@ -1,13 +1,13 @@
-# importando bibliotecas
+# import libs
 import pyautogui as pg
 import webbrowser as web
 import time
 import pandas as pd
 
-# importando csv
+# import csv file
 contatos = pd.read_csv("Lista_Contato_Whatapp.csv")
 
-# fazendo o envio
+# send messages
 data_dict = contatos.to_dict('list')
 
 leads = data_dict['wpp']
