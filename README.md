@@ -1,6 +1,6 @@
-<h1 align="center">WSM - Message sender</h1>
+<h1 align="center">WMS - Message sender</h1>
 
-To start to use the WSN, first you need to make your virtual enviroment (venv) with this comand:
+To start to use the WMS, first you need to make your virtual enviroment (venv) with this comand:
 
 ``` virtualenv --python=python3.8 venv ```
 
