@@ -34,7 +34,7 @@ def sender(first,lead,messages):
     pg.hotkey('ctrl','w')
 for lead,messages,send, value, description, pix in combo:
     if send == "yes":
-        messages = (f"Boa noite irmão! Como está por ai? Estou mandando os valores que ficaram pendentes para o mês de Outubro/22. Se preferir pagar por PIX a minha chave é: {pix} Se optar pelo pagamento via PIX, peço apenas que me mande o comprovante pelo privado. Valor: {value}. Descrição: {description}. Qualquer dúvida estou à disposição! V.S.S.V.")
+        messages = (f"Boa noite irmão! Tudo bem contigo? Estou mandando os valores que ficaram pendentes para o ultimo mês. Se preferir pagar por PIX a minha chave é: {pix} Se optar pelo pagamento via PIX, peço apenas que me mande o comprovante pelo privado. Valor: {value}. Descrição: {description}. Qualquer dúvida estou à disposição! V.S.S.V.")
         sender(first,lead,messages)
     elif send == "admin":
         sender(first,lead,messages)
