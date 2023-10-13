@@ -1,5 +1,7 @@
 <h1 align="center">WMS - Message sender</h1>
 
+<h2 align="justify"> This is a script for sending billing messages on WhatsApp. </h2>
+
 To start to use the WMS, first you need to make your virtual enviroment (venv) with this comand:
 
 ``` virtualenv --python=python3.8 venv ```
