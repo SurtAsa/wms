@@ -5,7 +5,7 @@ import time
 import pandas as pd
 
 # import csv file
-contatos = pd.read_csv("Lista_Contato_Whatapp.csv")
+contatos = pd.read_csv("Lista_de_Contato.csv")
 
 # send messages
 data_dict = contatos.to_dict('list')
@@ -34,7 +34,7 @@ def sender(first,lead,messages):
     pg.hotkey('ctrl','w')
 for lead,messages,send, value, description, pix in combo:
     if send == "yes":
-        messages = (f"Boa noite irmão! Tudo bem contigo? Estou mandando os valores que ficaram pendentes para o ultimo mês. Se preferir pagar por PIX a minha chave é: {pix} Se optar pelo pagamento via PIX, peço apenas que me mande o comprovante pelo privado. Valor: {value}. Descrição: {description}. Qualquer dúvida estou à disposição! V.S.S.V.")
+        messages = (f"Olá! Tudo bem contigo? Este é um app de envio de mensagens de cobranças. Posso adicionar uma chave PIX e a minha chave é: {pix} Se optar pelo pagamento via PIX, peço apenas que me mande o comprovante pelo privado. Valor: {value}. Descrição: {description}. Qualquer dúvida estou à disposição!")
         sender(first,lead,messages)
     elif send == "admin":
         sender(first,lead,messages)
