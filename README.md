@@ -12,4 +12,4 @@ To activate the venv, use thid comand:
 
 After activate the venv, install necessary libs with this comand:
 
-``` pip intall -r requirements.txt ```
+``` pip install -r requirements.txt ```
