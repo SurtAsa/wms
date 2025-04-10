@@ -13,3 +13,10 @@ To activate the venv, use thid comand:
 After activate the venv, install necessary libs with this comand:
 
 ``` pip install -r requirements.txt ```
+
+
+<h2> TO DO List</h2>
+
+    [ ] Migração do script para API
+    [ ] Integração com banco de dados (MySql, Postgress ou MongoBD)
+    [ ] Integração com a API do Whatsapp
