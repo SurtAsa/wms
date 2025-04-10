@@ -20,3 +20,4 @@ After activate the venv, install necessary libs with this comand:
     [ ] Migração do script para API
     [ ] Integração com banco de dados (MySql, Postgress ou MongoBD)
     [ ] Integração com a API do Whatsapp
+    [ ] Criar uma interface Front
